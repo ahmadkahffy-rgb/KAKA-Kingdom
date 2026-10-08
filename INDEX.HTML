@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kingdom KAKA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PARTICLES -->
+    <div class="particles"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="logo">
+            👑 KAKA
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#king">The King</a>
+            <a href="#weapons">The Weapons</a>
+            <a href="#legacy">The Legacy</a>
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-glow"></div>
+
+        <p class="subtitle">THE SACRED ROYAL REALM</p>
+
+        <h1>KINGDOM<br><span>KAKA</span></h1>
+
+        <p class="hero-description">
+            Where power, legacy and sovereignty become eternal.
+        </p>
+
+        <button onclick="enterKingdom()">
+            ENTER THE KINGDOM
+        </button>
+
+        <div class="scroll">
+            ↓
+            <span>ENTER THE ROYAL ARCHIVES</span>
+        </div>
+
+    </section>
+
+
+    <!-- THE KING -->
+    <section id="king" class="gallery-section">
+
+        <div class="section-title">
+            <span>Ⅰ</span>
+            <h2>THE KING</h2>
+            <p>The Sovereign • The Crown • The Ruler</p>
+        </div>
+
+        <div class="gallery">
+
+            <div class="gallery-card" onclick="openImage('images/KING KAKA.png')">
+                <img src="images/KING KAKA.png" alt="The King">
+                <div class="card-overlay">
+                    <h3>THE SOVEREIGN</h3>
+                    <p>Portrait of the King</p>
+                </div>
+            </div>
+
+            <div class="gallery-card" onclick="openImage('images/Crown Kaka.jpeg')">
+                <img src="images/Crown Kaka.jpeg" alt="The King">
+                <div class="card-overlay">
+                    <h3>THE CROWN</h3>
+                    <p>The Royal Presence</p>
+                </div>
+            </div>
+
+            <div class="gallery-card" onclick="openImage('images/Penobatan Kaka.jpeg')">
+                <img src="images/Penobatan Kaka.jpeg" alt="The King">
+                <div class="card-overlay">
+                    <h3>THE MAJESTY</h3>
+                    <p>Lord KAKA</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- THE WEAPONS -->
+    <section id="weapons" class="gallery-section weapons">
+
+        <div class="section-title">
+            <span>Ⅱ</span>
+            <h2>THE WEAPONS</h2>
+            <p>Symbols of Power • Strength • Dominion</p>
+        </div>
+
+        <div class="gallery weapon-gallery">
+
+            <div class="gallery-card weapon-card" onclick="openImage('images/First Weapon Kaka.jpeg')">
+                <img src="images/First Weapon Kaka.jpeg" alt="Weapon">
+                <div class="card-overlay">
+                    <h3>THE FIRST ARM</h3>
+                    <p>Instrument of Power</p>
+                </div>
+            </div>
+
+            <div class="gallery-card weapon-card" onclick="openImage('images/Second Hand Kaka.jpeg')">
+                <img src="images/Second Hand Kaka.jpeg" alt="Weapon">
+                <div class="card-overlay">
+                    <h3>THE SECOND ARM</h3>
+                    <p>Royal Arsenal</p>
+                </div>
+            </div>
+
+            <div class="gallery-card weapon-card" onclick="openImage('images/Final Weapon Kaka.jpeg')">
+                <img src="images/Final Weapon Kaka.jpeg" alt="Weapon">
+                <div class="card-overlay">
+                    <h3>THE FINAL ARM</h3>
+                    <p>Ultimate Dominion</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- THE LEGACY -->
+    <section id="legacy" class="gallery-section legacy">
+
+        <div class="section-title">
+
+            <span>Ⅲ</span>
+
+            <h2>THE LEGACY</h2>
+
+            <p>Achievements • Memories • Eternal History</p>
+
+        </div>
+
+
+        <div class="gallery">
+
+            <div class="gallery-card" onclick="openImage('images/legacy1.jpg')">
+
+                <img src="images/legacy1.jpg" alt="Legacy">
+
+                <div class="card-overlay">
+                    <h3>THE BEGINNING</h3>
+                    <p>Where the journey began</p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-card" onclick="openImage('images/legacy2.jpg')">
+
+                <img src="images/legacy2.jpg" alt="Legacy">
+
+                <div class="card-overlay">
+                    <h3>THE RISE</h3>
+                    <p>The Kingdom expands</p>
+                </div>
+
+            </div>
+
+
+            <div class="gallery-card" onclick="openImage('images/legacy3.jpg')">
+
+                <img src="images/legacy3.jpg" alt="Legacy">
+
+                <div class="card-overlay">
+                    <h3>THE LEGACY</h3>
+                    <p>History becomes eternal</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ROYAL COURT -->
+    <section class="royal-court">
+
+        <div class="crown">♛</div>
+
+        <p>THE SOVEREIGN</p>
+
+        <h2>
+            KING YANG DIPERTUAN AGUNG<br>
+            MAHARAJA MAHADAHSYAT<br>
+            LORD KAKA
+        </h2>
+
+        <div class="royal-line"></div>
+
+        <p class="motto">
+            "Power may fade. Legacy never does."
+        </p>
+
+    </section>
+
+
+    <!-- IMAGE LIGHTBOX -->
+    <div id="lightbox" class="lightbox" onclick="closeImage()">
+
+        <span class="close">×</span>
+
+        <img id="lightbox-image" src="" alt="Royal Archive">
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-crown">♛</div>
+
+        <p>THE KINGDOM OF KAKA</p>
+
+        <span>ALL ROYAL ARCHIVES RESERVED</span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
